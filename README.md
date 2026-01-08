@@ -1,2 +1,2 @@
-# UI-UX-Practice
-it is clone of website
+# Frontend dev Practice
+this is clone of website from figma

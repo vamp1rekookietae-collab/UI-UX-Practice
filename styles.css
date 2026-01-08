@@ -1,0 +1,48 @@
+.nav-link {
+  color: #333;
+}
+.nav-link:hover {
+  color: #ef4444;
+}
+
+.icon-link {
+  color: #333;
+}
+.icon-link:hover {
+  color: #ef4444;
+}
+
+.user-icon {
+  background: #ef4444;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+.side-link {
+  color: #555;
+}
+.side-link:hover {
+  color: #ef4444;
+}
+.side-link.active {
+  color: #ef4444;
+}
+
+.label {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.input {
+  background: #f5f5f5;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+}
+.input:focus {
+  background: #fff;
+  border: 1px solid #ef4444;
+}

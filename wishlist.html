@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+    <div class="bg-black text-white flex items-center justify-center">
+      <p>Summer Sale For All Swimsuits And Free Express Delivery - OFF 50% <a href="wishlist.html"
+          class="underline text-md font-bold">ShopNow</a> </p>
+    </div>
+    <div class=" flex items-center justify-between shadow-sm p-3">
+      <h1 class="font-bold text-3xl">Exclusive</h1>
+      <ul class="flex items-center gap-12 ">
+
+        <li class="text-lg hover:underline "><a href="home.html">Home</a></li>
+        <li class="text-lg hover:underline  "><a href="Contact.html">Contact</a></li>
+        <li class="text-lg hover:underline  "><a href="about.html">About</a></li>
+        <li class="text-lg hover:underline  "><a href="sign_up.html">Sign Up</a></li>
+      </ul>
+      <div class="flex items-center gap-3">
+        <input type="search" placeholder="What are you looking for?" class="bg-gray-200 w-70 text-gray-500 text-center">
+        <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+        <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </nav>
+  
+    <section class="max-w-7xl mx-auto px-6 py-10">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-lg font-semibold">Wishlist (4)</h2>
+            <button class="border px-4 py-2 text-sm rounded">Move All To Bag</button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+                <span class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">
+                    -35%
+                </span>
+
+                <button class="absolute top-3 right-3 text-gray-500">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+
+                <img src="/bag.jpeg" class="mx-auto mb-4" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">Gucci duffle bag</p>
+                <p class="text-red-500 font-semibold">
+                    $960 <span class="line-through text-gray-400 text-xs">$1160</span>
+                </p>
+            </div>
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+                <button class="absolute top-3 right-3 text-gray-500">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+
+                <img src="speaker.jpeg" class="mx-auto mb-4" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">RGB liquid CPU Cooler</p>
+                <p class="text-red-500 font-semibold">$1960</p>
+            </div>
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+                <button class="absolute top-3 right-3 text-gray-500">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+
+                <img src="controller.jpeg" class="mx-auto mb-4" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">GP11 Shooter USB Gamepad</p>
+                <p class="text-red-500 font-semibold">$550</p>
+            </div>
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+                <button class="absolute top-3 right-3 text-gray-500">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+
+                <img src="jacket.jpeg" class="mx-auto mb-4 w-[540] h-[315]" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">Quilted Satin Jacket</p>
+                <p class="text-red-500 font-semibold">$750</p>
+            </div>
+
+        </div>
+    </section>
+    <!--Just for you-->
+    <section class="max-w-7xl mx-auto px-6 pb-16">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-lg font-semibold flex items-center gap-2">
+                <span class="w-3 h-6 bg-red-500"></span> Just For You
+            </h2>
+            <button class="border px-4 py-2 text-sm rounded">See All</button>
+        </div>
+        <!--grid-->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+                <span class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">
+                    -35%
+                </span>
+                <img src="laptop.jpeg" class="mx-auto mb-4">
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">ASUS FHD Gaming Laptop</p>
+
+                <div class="flex items-center gap-2">
+                    <p class="text-red-500 font-semibold">$960</p>
+                    <span class="line-through text-gray-400 text-xs">$1160</span>
+                </div>
+
+                <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-500">(65)</span></div>
+
+
+
+            </div>
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+
+                <img src="computer.jpeg" class="mx-auto mb-4" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">IPS LCD Gaming Monitor</p>
+
+                <div class="flex items-center gap-2">
+                    <p class="text-red-500 font-semibold">$1160</p>
+                    <span class="line-through text-gray-400 text-xs">$1160</span>
+                </div>
+
+                <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-500">(65)</span></div>
+            </div>
+
+
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+
+                <img src="demo contoller.jpeg" class="mx-auto mb-4" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">HAVIT HV-G92 Gamepad</p>
+
+                <div class="flex items-center gap-2">
+                    <p class="text-red-500 font-semibold">$560</p>
+                    <span class="line-through text-gray-400 text-xs">$1160</span>
+                </div>
+
+                <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-500">(65)</span></div>
+            </div>
+
+
+
+            <!-- Card -->
+            <div class="border rounded-lg p-4 relative">
+                <img src="keyborad.jpeg" class="mx-auto mb-4" />
+
+                <button class="w-full bg-black text-white text-sm py-2 mb-2 flex justify-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                </button>
+
+                <p class="text-sm">AK-900 Wired Keyborad</p>
+
+                <div class="flex items-center gap-2">
+                    <p class="text-red-500 font-semibold">$960</p>
+                    <span class="line-through text-gray-400 text-xs">$1160</span>
+                </div>
+
+                <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-500">(65)</span></div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!--footer-->
+ <footer class="bg-black text-white pt-20 pb-8 px-4 md:px-20 font-normal">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 mb-20">
+            <div class="space-y-5">
+                <h2 class="text-2xl font-bold">Exclusive</h2>
+                <h3 class="text-xl font-bold">Subscribe</h3>
+                <p>Get 10% off your first order</p>
+                <div class="relative border border-white rounded flex items-center p-3">
+                    <input type="text" placeholder="Enter your email" class="bg-transparent text-sm w-full outline-none font-bold">
+                    <i class="fa-solid fa-paper-plane cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="space-y-5">
+                <h3 class="text-xl font-bold">Support</h3>
+                <p class="leading-relaxed">111 Bijoy sarani, Dhaka,<br> DH 1515, Bangladesh.</p>
+                <p>exclusive@gmail.com</p>
+                <p>+88015-88888-9999</p>
+            </div>
+            <div class="space-y-5">
+                <h3 class="text-xl font-bold">Account</h3>
+                <ul class="space-y-4 font-medium">
+                    <li><a href="#" class="hover:text-gray-300">My Account</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Login / Register</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Cart</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Wishlist</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Shop</a></li>
+                </ul>
+            </div>
+            <div class="space-y-5">
+                <h3 class="text-xl font-bold">Quick Link</h3>
+                <ul class="space-y-4 font-medium">
+                    <li><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Terms Of Use</a></li>
+                    <li><a href="#" class="hover:text-gray-300">FAQ</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+            <div class="space-y-5">
+                <h3 class="text-xl font-bold">Download App</h3>
+                <p class="text-xs text-gray-400">Save $3 with App New User Only</p>
+                <div class="flex gap-3 mb-6">
+                    <div class="bg-white p-1 rounded">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=Exclusive" alt="QR Code" class="w-16 h-16">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="w-28">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" class="w-28">
+                    </div>
+                </div>
+                <div class="flex space-x-7 text-xl">
+                    <i class="fa-brands fa-facebook-f cursor-pointer"></i>
+                    <i class="fa-brands fa-twitter cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram cursor-pointer"></i>
+                    <i class="fa-brands fa-linkedin-in cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-6 text-center text-gray-600 text-sm">
+            © Copyright Rimel 2022. All right reserved
+        </div>
+    </footer>
+</body>
+
+</html>
